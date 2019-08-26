@@ -1,0 +1,28 @@
+{
+  "name": "webpacker-pwa",
+  "version": "0.0.1",
+  "description": "An utility package to change the default Rails Webpacker configuration and add support for Service Workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/coorasse/webpacker-pwa.git"
+  },
+  "keywords": [
+    "pwa",
+    "pra",
+    "webpacker",
+    "rails"
+  ],
+  "author": "Alessandro Rodi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coorasse/webpacker-pwa/issues"
+  },
+  "homepage": "https://github.com/coorasse/webpacker-pwa#readme",
+  "dependencies": {
+    "@rails/webpacker": "^4.0.0"
+  }
+}
