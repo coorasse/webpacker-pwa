@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/coorasse/webpacker-pwa/issues"
   },
-  "homepage": "https://github.com/coorasse/webpacker-pwa#readme",
-  "dependencies": {
-    "@rails/webpacker": "^4.0.0"
-  }
+  "homepage": "https://github.com/coorasse/webpacker-pwa#readme"
 }

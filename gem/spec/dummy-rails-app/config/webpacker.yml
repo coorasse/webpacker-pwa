@@ -1,0 +1,8 @@
+development:
+  service_workers_entry_path: service_workers
+  source_path: app/javascript
+  source_entry_path: packs
+  public_root_path: public
+  public_output_path: packs
+  dev_server:
+    https: false

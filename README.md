@@ -2,45 +2,30 @@
 
 Webpacker does not support Progressive Web Apps? Here is the solution for you.
 
-This package adds customizations on the top of the standard Rails Webpacker configuration and allows you to start
-writing a Progressive Web App.
+This repository consists of two parts: an npm package and a ruby gem which add customizations on 
+the top of the standard Rails Webpacker configuration and allow you to start
+writing a Progressive Rails App!
 
-Is meant as a quick tool that you can use to get it working today, without waiting for the necessary changes to be introduceds and approved on webpacker. 
+Is meant as a quick tool that you can use to get it working today, 
+while we wait for the necessary changes to be introduced and approved on Webpacker itself. 
 It follows the guide written about The Progressive Rails App.
 
-## Features
+Please check the two folders for a detailed introduction.
 
-* Overrides default Webpacker configuration transparently
-* Compiles service workers directly in the `public` folder.
-* Allows to code service workers and use webpack-dev-server.
-* No changes are needed server-side
-* Works without Sprockets.
 
-## Usage
+## Contributing
 
-1. Install the npm package:
+Bug reports and pull requests are welcome on GitHub at https://github.com/coorasse/webpacker-pwa. 
+This project is intended to be a safe, 
+welcoming space for collaboration, and contributors are expected to adhere 
+to the [code of conduct](https://github.com/coorasse/webpacker-pwa/blob/master/CODE_OF_CONDUCT.md).
 
-`bin/yarn add webpacker-wpa`
+## License
 
-2. Edit `config/webpack/environment.js`:
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-<pre>
-const { resolve } = require('path');
-const { config, environment, Environment } = require('@rails/webpacker');
-<b>const WebpackerPwa = require('webpacker-pwa');
-new WebpackerPwa(config, environment);</b>
-module.exports = environment;
-</pre>
+## Code of Conduct
 
-3. Define the service workers folder in `config/webpacker.yml`
-
-`service_workers_entry_path: service_workers`
-
-Start writing your Progressive Rails App! :tada:
-
-## Compatibility
-
-The package is doing a lot of changes on the default Webpacker configuration.
-If some configurations change on Webpacker, this package might need to be updated.
-The current version has been tested with Webpacker ~> 4.0.
-
+Everyone interacting in the webpacker-pwa project's codebases, issue trackers, 
+chat rooms and mailing lists is expected to 
+follow the [code of conduct](https://github.com/coorasse/webpacker-pwa/blob/master/CODE_OF_CONDUCT.md).

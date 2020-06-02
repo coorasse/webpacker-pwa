@@ -13,6 +13,9 @@ const getExtensionsGlob = () => {
 
 module.exports = class Base {
   constructor(config, environment) {
+    if (config.service_workers_entry_path === undefined) {
+      throw "Please define `service_workers_entry_path: service_workers` in webpacker.yml"
+    }
     this.packsFolder = config.public_output_path;
     this.jsFolder = 'js';
     this.cssFolder = 'css';

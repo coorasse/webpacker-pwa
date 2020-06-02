@@ -1,0 +1,5 @@
+example_id                                           | status | run_time        |
+---------------------------------------------------- | ------ | --------------- |
+./spec/webpacker/pwa/dev_server_proxy_spec.rb[1:1:1] | passed | 0.0414 seconds  |
+./spec/webpacker/pwa/dev_server_proxy_spec.rb[1:2:1] | passed | 0.00139 seconds |
+./spec/webpacker/pwa/version_spec.rb[1:1]            | passed | 0.00269 seconds |
