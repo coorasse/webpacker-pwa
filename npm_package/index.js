@@ -67,6 +67,9 @@ module.exports = class Base {
     //sets the rule to put service workers on the root folder
     rootPath = join(config.source_path, config.service_workers_entry_path);
     paths = sync(join(rootPath, glob));
+    if (paths.length === 0) {
+      console.warn("webpacker-pwa is configured but no service workers are available.")
+    }
     paths.forEach((path) => {
       const name = basename(path, extname(path));
       result.set(name, resolve(path))
