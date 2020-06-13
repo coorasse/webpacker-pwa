@@ -1,6 +1,6 @@
 {
   "name": "webpacker-pwa",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An utility package to change the default Rails Webpacker configuration and add support for Service Workers",
   "main": "index.js",
   "scripts": {

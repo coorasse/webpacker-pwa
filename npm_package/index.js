@@ -37,8 +37,10 @@ module.exports = class Base {
   }
 
   editDevServer(environment) {
-    environment.config.devServer.contentBase = environment.config.devServer.contentBase.replace(`/${this.packsFolder}`, '');
-    environment.config.devServer.publicPath = this.publicFolder;
+    if (environment.config.devServer !== undefined) {
+      environment.config.devServer.contentBase = environment.config.devServer.contentBase.replace(`/${this.packsFolder}`, '');
+      environment.config.devServer.publicPath = this.publicFolder;
+    }
   }
 
   editLoaders(environment) {
