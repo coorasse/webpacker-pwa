@@ -10,7 +10,7 @@
 
 1. Install the npm package:
 
-`bin/yarn add webpacker-wpa`
+`bin/yarn add webpacker-pwa`
 
 2. Edit `config/webpack/environment.js`:
 
