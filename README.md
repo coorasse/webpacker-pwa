@@ -8,7 +8,7 @@ writing a Progressive Rails App!
 
 Is meant as a quick tool that you can use to get it working today, 
 while we wait for the necessary changes to be introduced and approved on Webpacker itself. 
-It follows the guide written about The Progressive Rails App.
+It follows the guide written about [The Progressive Rails App](https://dev.to/coorasse/the-progressive-rails-app-46ma).
 
 Please check the two folders for a detailed introduction.
 
