@@ -1,5 +1,7 @@
 # Webpacker Progressive Web App
 
+## Webpacker has been retired. This gem as well. 🌅
+
 Webpacker does not support Progressive Web Apps? Here is the solution for you.
 
 This repository consists of two parts: an npm package and a ruby gem which add customizations on 
